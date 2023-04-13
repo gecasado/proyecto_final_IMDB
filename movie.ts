@@ -42,14 +42,12 @@ export class Movie{
         }else{
             console.log(`------DIRECTOR------`);
             this.director.printAttributes();
-            console.log(`--------------------`);
         }
         if (this.writer == undefined) {
             console.log(`Writer = ${this.writer}`);
         }else{
             console.log(`-------WRITTER------`);
             this.writer.printAttributes();
-            console.log(`--------------------`);
         }
         console.log(`Language = ${this.language}`);
         console.log(`Plataforma = ${this.plataforma}`);

@@ -12,7 +12,7 @@ let samuel:Professional = new Professional("Samuel L. Jackson",74,83,189,false,"
 let actors:Professional[] = [Robert,chris,scarlet,samuel];
 pelicula.actors = actors;
 
-let joss:Professional = new Professional("Joss Whedon",58,75,178,false,"Estadounidense",1,"Director");
+let joss:Professional = new Professional("Joss Whedon",58,75,178,false,"Estadounidense",1,"Director, Escritor");
 pelicula.director = joss;
 pelicula.writer = joss;
 pelicula.language = "English";
@@ -23,3 +23,5 @@ pelicula.producer = "Kevin Feige";
 pelicula.distributor = "Walt Disney Studios Motion Pictures";
 
 pelicula.printAttributes();
+
+export {pelicula};
